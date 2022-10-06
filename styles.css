@@ -1,0 +1,60 @@
+
+body{
+    margin:0;
+    background-color: #A0B4AA;
+
+
+}
+.navbar{
+    background-color: #B5A191;
+    margin: 0;
+    padding-top:1rem;
+}
+.navbar ul{
+    margin:0;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    margin-right:1.5rem;
+}
+.intro{
+    height:30rem;
+    
+    background-image: url("https://images.unsplash.com/photo-1626766861391-47ce5d99ee22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2NTAxNTUzMw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+background-position: center;
+
+
+}
+.intro img{
+    width:15rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+}
+.intro h1{
+    text-align: center;
+    background-color: #5E4E38;
+    color: #A0B4AA;
+    padding: 1rem;
+    margin-top: 0;
+    font-size: 2rem;
+}
+.slogan{
+    padding: 0 1rem;
+
+    margin-top:0;
+}
+.slogan p{
+    font-size: 1.5rem;
+    color: black;
+}
+.slogan h2{
+    color: #196A60;
+}
+.photos img{
+    width:30%;
+    margin:1.5%;
+}
+
