@@ -9,6 +9,7 @@ body{
     background-color: #B5A191;
     margin: 0;
     padding-top:1rem;
+    text-align: center;
 }
 .navbar ul{
     margin:0;
@@ -86,6 +87,36 @@ margin-top: 0 !important;
 .footer{
     margin: 4em auto;
 }
+@media only screen and (max-width:1048px){
+    .events img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .photos img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and(max-width: 640px) {
+    .navbar li{
+        display: block;
+        text-align: center;
+        color: #196A60;
 
+    }
+    .intro h1{
+        margin-top: 2rem;
+    }
+    .intro{
+        max-height: 200px;
+    }
+}
+@media only screen and (max-width:320px){
+    .event img{
+        width: 100%;
+    }
+}
 
 
